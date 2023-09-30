@@ -23,6 +23,15 @@ public class quizegame {
         JOptionPane.showMessageDialog(null, "You should type the options", "Rules", JOptionPane.PLAIN_MESSAGE);
         JOptionPane.showMessageDialog(null, "You should type the options in captial letters", "Rules",  JOptionPane.PLAIN_MESSAGE);
         JOptionPane.showMessageDialog(null, "You should not type the acutal answer, you need to type only options.", "Rules", JOptionPane.PLAIN_MESSAGE);
-        JOptionPane.showMessageDialog(null, "Ok, lets start the game", "Starting game", JOptionPane.PLAIN_MESSAGE);
+        String understandrules = JOptionPane.showInputDialog(null, "Did You undersand the rules");
+        if (understandrules == "yes"){
+            JOptionPane.showMessageDialog(null, "Ok lets start the game", "Rules", JOptionPane.PLAIN_MESSAGE);
+        }
+
+        else {
+            JOptionPane.showMessageDialog(null, "This is a computer related quizegame and coding related quizegame", "Rules", JOptionPane.PLAIN_MESSAGE);
+            JOptionPane.showMessageDialog(null, "You should type the options", "Rules", JOptionPane.PLAIN_MESSAGE);
+            JOptionPane.showMessageDialog(null, "You should type the options in captial letters", "Rules", JOptionPane.PLAIN_MESSAGE);
+        }
     }
 }
