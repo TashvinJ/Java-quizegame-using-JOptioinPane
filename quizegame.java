@@ -1,6 +1,7 @@
 import javax.swing.JOptionPane;
 import java.lang.Integer;
 import java.lang.System;
+import java.lang.String;
 
 public class quizegame {
     public static void main(String[] args){
@@ -23,7 +24,7 @@ public class quizegame {
         JOptionPane.showMessageDialog(null, "You should type the options", "Rules", JOptionPane.PLAIN_MESSAGE);
         JOptionPane.showMessageDialog(null, "You should type the options in captial letters", "Rules",  JOptionPane.PLAIN_MESSAGE);
         while (true) {
-            String understandrules = JOptionPane.showInputDialog(null, "Did You undersand the rules");
+            String understandrules = JOptionPane.showInputDialog(null, "Did You undersand the rules? (y for yes, n for no)", "Rules", JOptionPane.PLAIN_MESSAGE).toLowerCase();
             if (understandrules == "yes"){
                 JOptionPane.showMessageDialog(null, "Ok lets start the game", "Rules", JOptionPane.PLAIN_MESSAGE);
                 break;
