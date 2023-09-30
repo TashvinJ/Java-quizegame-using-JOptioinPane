@@ -23,5 +23,6 @@ public class quizegame {
         JOptionPane.showMessageDialog(null, "You should type the options", "Rules", JOptionPane.PLAIN_MESSAGE);
         JOptionPane.showMessageDialog(null, "You should type the options in captial letters", "Rules",  JOptionPane.PLAIN_MESSAGE);
         JOptionPane.showMessageDialog(null, "You should not type the acutal answer, you need to type only options.", "Rules", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Ok, lets start the game", "Starting game", JOptionPane.PLAIN_MESSAGE);
     }
 }
